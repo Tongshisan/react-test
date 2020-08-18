@@ -1,0 +1,37 @@
+#工程文件
+.idea/
+.vscode
+.editorconfig
+
+# 临时文件和配置文件
+templates_c/
+docs/upload/
+application.ini
+.gulp-cache/
+.DS_Store
+
+# node_modules
+node_modules/
+
+#日志文件
+*.log
+
+#压缩文件
+*.tar.*
+*.zip
+*.rar
+
+
+!bms.zip
+
+#构建临时文件
+tmp-rev
+
+
+#构建后的目录
+src/dana-doms-web/application/views
+src/dana-doms-web/public/static/
+fe/src/templates.js
+fe/src/components/templates.js
+
+cdn-dist
